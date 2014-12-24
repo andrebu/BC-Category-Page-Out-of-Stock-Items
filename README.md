@@ -49,11 +49,10 @@ To get this to work, you just need to require the module once per run-time, like
 
 > ⚐ Please help me spend more time developing and maintaining awesome modules like this by donating!
 
-The absolute best thing to do is to sign up with [Gittip](http://gittip.com) or [ChangeTip](http://changetip.com) if you haven't already and donate just $1 a week. That is roughly a cup of coffee per month. Also, please do donate to many other amazing open source projects!
+The absolute best thing to do is to sign up with [GratiPay](//gratipay.com) or [ChangeTip](//changetip.com) if you haven't already and donate just $1 a week. That is roughly a cup of coffee per month. Also, please do donate to many other amazing open source projects!
 
-[![Gittip](http://img.shields.io/gittip/alexgorbatchev.png)](https://www.gittip.com/andrebulatov/)
-<div id="changetip_tipme_button" data-bid="uamLZQArprKRkS95Eb2tke" data-uid="EM6EKFgZ8MrqjBShL59Fin"></div><script>(function(document,script,id){var js,r=document.getElementsByTagName(script)[0],protocol=/^http:/.test(document.location)?'http':'https';if(!document.getElementById(id)){js=document.createElement(script);js.id=id;js.src=protocol+'://widgets.changetip.com/public/js/widgets.js';r.parentNode.insertBefore(js,r)}}(document,'script','changetip_w_0'));</script>
-[![PayPayl donate button](http://img.shields.io/paypal/donate.png?color=yellow)](https://wwal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PSDPM9268P8RW "Donate once-off to this project using Paypal")
+[![GratiPay donate button](//andrebulatov.com/wp-content/uploads/gratipay-button.png)](//www.gratipay.com/andrebulatov/ "Donate once-off to this project using GratiPay")
+[![ChangeTip donate button](//andrebulatov.com/wp-content/uploads/tipme_button.png)](//www.changetip.com/tipme/andre.bulatov/ "Donate once-off to this project using ChangeTip")
 
 
 ## License
