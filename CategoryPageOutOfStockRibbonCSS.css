@@ -1,0 +1,20 @@
+/* Product out of stock overlay */
+div.sold-out-overlay {
+    position: absolute;
+    top: 8%;
+    left: -33.5%;
+    background-color: rgba(165, 165, 165, 0.5);
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    line-height: 40px;
+    color: black;
+    TRANSFORM: ROTATE(-45DEG);
+    BORDER: SOLID 1PX black;
+    -webkit-transform:rotate(-45deg);
+}
+/* hide "Add to Cart" buttons on category page */
+ .ProductActionAdd {
+    display: none;
+}
+/* END hide "Add to Cart" buttons on category page */
