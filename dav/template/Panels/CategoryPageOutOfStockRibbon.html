@@ -1,4 +1,5 @@
 <script type="text/javascript">
+// Out of Stock / Sold Out Ribbon
     $('<style type="text/css">\
 		/* Out Of Stock Ribbon CSS */\
 		.sold-out-overlay {\
@@ -18,7 +19,7 @@
 		}\
 		</style>')
         .appendTo('head');
-// Out of Stock selector -->
+// Out of Stock selector
 $(document).ready(function(){
   var soldOutOverlay = ('<span class="sold-out-overlay">Out of Stock</span>');
   $(".ProductList li .ProductActionAdd a:contains('Sold out')").each(function( index ) {
