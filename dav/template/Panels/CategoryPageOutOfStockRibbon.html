@@ -17,17 +17,22 @@
 			-o-transform:rotate(-45deg);\
 			transform: rotate(-45deg);\
 			text-transform: uppercase;\
-			text-shadow: 0px 1px 1px #fff;\
+			text-shadow: 0px 0.5px 1px #fff;\
 		}\
 		</style>')
         .appendTo('head');
-// Out of Stock selector
-$(document).ready(function(){
-  var soldOutOverlay = ('<span class="sold-out-overlay">Out of Stock</span>');
-  $(".ProductList li .ProductActionAdd a:contains('Sold out')").each(function( index ) {
-     $(this).parents('li').addClass('SoldOut'); 
-     $(this).parents('li').find('.ProductImage a').append(soldOutOverlay);
-     $(this).parent().parent().find('.on-sale-badge').hide();
-  });
-});
+    
+	function applySoldOutRibbons() {
+		var soldOutOverlay = ('<span class="sold-out-overlay">Out of Stock</span>');
+		$(".ProductList li .ProductActionAdd a:contains('Sold out')").each(function( index ) {
+			$(this).parents('li').addClass('SoldOut'); 
+			$(this).parents('li').find('.ProductImage a').append(soldOutOverlay);
+			$(this).parent().parent().find('.on-sale-badge').hide();
+		});
+	};
+
+	// Out of Stock selector
+	$(document).ready(function() {
+		applySoldOutRibbons();
+	});
 </script>
